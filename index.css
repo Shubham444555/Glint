@@ -449,7 +449,7 @@ display: grid;
 grid-template-columns: 1fr 1fr ;
 }
 .img1{
-    height: 450px;
+    height: 400px;
     width: 400px;
 }
 .img2{
@@ -461,7 +461,7 @@ grid-template-columns: 1fr 1fr ;
     width: 400px;
 }
 .img4{
-    height: 450px;
+    height: 400px;
     width: 400px;
 }
 .img5{
@@ -473,7 +473,7 @@ grid-template-columns: 1fr 1fr ;
     width: 400px;
 }
 .img1 img{
-    height: 450px;
+    height: 400px;
     width: 400px;
 }
 .img2 img{
@@ -485,7 +485,7 @@ grid-template-columns: 1fr 1fr ;
     width: 400px;
 }
 .img4 img{
-    height: 450px;
+    height: 400px;
     width: 400px;
 }
 .img5 img{
@@ -495,4 +495,43 @@ grid-template-columns: 1fr 1fr ;
 .img6 img{
     height: 400px;
     width: 400px;
+}
+.clients{
+    height: 800px;
+    margin-top: 1150px;
+    width: 100%;
+}
+.greybox{
+    height: 800px;
+    width: 100%;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our{
+    color: #39b54a;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 120px;
+}
+.partner{
+   text-align: center;
+    width: 800px;
+    color: black;
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 10px; 
+}
+.logos{
+    width: 75%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
 }
