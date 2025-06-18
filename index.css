@@ -439,7 +439,60 @@
     letter-spacing: 2px;
     word-spacing: 2px;
     padding-top: 10px;
-    /* text-decoration: underline; */
-    border-bottom: grey solid 1px;
+    border-bottom: rgb(46, 45, 45) solid 1px;
+    padding-bottom: 50px;
 }
-
+.images{
+width: 60%;
+padding-top: 70px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.img1{
+    height: 450px;
+    width: 400px;
+}
+.img2{
+    height: 400px;
+    width: 400px;
+}
+.img3{
+    height: 400px;
+    width: 400px;
+}
+.img4{
+    height: 450px;
+    width: 400px;
+}
+.img5{
+    height: 400px;
+    width: 400px;
+}
+.img6{
+    height: 400px;
+    width: 400px;
+}
+.img1 img{
+    height: 450px;
+    width: 400px;
+}
+.img2 img{
+    height: 400px;
+    width: 400px;
+}
+.img3 img{
+    height: 400px;
+    width: 400px;
+}
+.img4 img{
+    height: 450px;
+    width: 400px;
+}
+.img5 img{
+    height: 400px;
+    width: 400px;
+}
+.img6 img{
+    height: 400px;
+    width: 400px;
+}
