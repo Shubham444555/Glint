@@ -296,7 +296,7 @@
 }
 
 .illustration {
-    margin-left: 120px;
+    margin-left: 120px ;
     letter-spacing: 1px;
     font-size: 25px;
     font-weight: bold;
@@ -443,7 +443,7 @@
     padding-bottom: 50px;
 }
 .images{
-width: 60%;
+width: auto;
 padding-top: 70px;
 display: grid;
 grid-template-columns: 1fr 1fr ;
@@ -601,27 +601,371 @@ color: #39b54a;
     margin-top: 3px;
     font-weight: 500;
 }
-.form{
-    display: flex;
-    flex-direction: column;
+.this{
+    font-weight: 300;
+    margin-top: 10px;
+    width: 240px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px ;
+    line-height: 25px;
+    opacity: 0.6;
 }
-.darkbox{
-    height: 800px;
-    width: 100%;
-    background-image: url(bubble5.jpg);
-}
-.dark{
-    height: 800px;
+.last{
+    height: 500px;
     width: 100%;
     background-color: black;
-    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+}
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: rgb(65, 158, 52); */
+    margin-top: 100px;
+}
+.logo{
+    color: #39b54a;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 120px;
+}
+.footer-text{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 450px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 22px;
+    opacity: 0.4;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.notified{
+    width: 50%;
+    /* background-color: red; */
+    margin-top: 110px;
+    /* margin-left: 100px; */
+}
+.get{
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 600;
+}
+.eng{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 450px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 22px;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+.port{
+    margin-left: 40px;
+}
+.input1{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(15, 15, 15);
+    border: #39b54a 1px solid;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.subscribe{
+    display: flex;
+}
+button{
+    margin-top: 30px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #39b54a;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.name{
+    position: absolute;
+    top: 0px;
+    background-color: red;
+    width: 100px;
+}
+.email1{
+    margin-top: 30px;
+}
+.bubble{
+    height: 1100px;
+    width: 100%;
+    background-image: url(free.jpg);
+}
+.twoline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-box{
+    display: flex;
 }
 .contact{
     color: #39b54a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
-    letter-spacing: 3px;
     font-weight: 700;
-    filter: contrast(200%);
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 100px;
 }
-
+.reach{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 44px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 800px;
+    text-align: center
+}
+.transparent-box{
+    height: 700px;
+    width: 600px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.full-box{
+    height: 700px;
+    width: 400px;
+    background-color: black;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us{
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.find{
+    color: #39b54a;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.amphi{
+    width: 210px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.emailus{
+    color: #39b54a;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.eaddress{
+   width: 210px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-top: 15px;
+    line-height: 30px; 
+}
+.callus{
+   color: #39b54a;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-top: 50px; 
+}
+.enumber{
+    width: 210px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-top: 15px;
+    line-height: 30px; 
+}
+.send{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+.yourname{
+    padding-left: 20px;
+    height: 35px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    border: #39b54a 1px solid;
+    letter-spacing: 1px;
+}
+.youremail{
+    padding-left: 20px;
+    height: 35px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    border: #39b54a 1px solid;
+    letter-spacing: 1px;
+}
+.yoursubject{
+    padding-left: 20px;
+    height: 35px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    border: #39b54a 1px solid;
+    letter-spacing: 1px;
+}
+.yourmessage{
+    height: 200px;
+    width: 500px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+    border: #39b54a 1px solid;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.submit{
+    width: 520px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+@media  (max-width: 884px){
+    .next{
+        height: 800px;
+    }
+    .number1{
+        padding: 0px 25px 0px 25px;
+    }
+    .number2{
+        padding: 0px 25px 0px 25px;
+    }
+    .number3{
+        padding: 0px 25px 0px 25px ;
+    }
+    .number4{
+        padding: 0px 25px 0px 25px ;
+    }
+    .brand{
+        margin-left: 50px;
+    }
+    .nemo{
+        margin-left: 50px;
+        width: 380px;
+    }
+    .illustration{
+        margin-left: 50px;
+    }
+    .nemo1{
+        margin-left: 50px;
+        width: 380px;
+    }
+    .marketing{
+        margin-left: 50px;
+    }
+   .nemo2{
+    margin-left: 50px;
+    width: 380px;
+   }
+    .webd{
+        margin-left: 50px;
+    }
+    .nemo3{
+        margin-left: 50px;
+        width: 380px;
+    }
+    .package{
+        margin-left: 50px;
+    }
+    .nemo4{
+        margin-left: 50px;
+        width: 380px;
+    }
+    .webdev{
+        margin-left: 50px;
+    }
+    .nemo5{
+        margin-left: 50px;
+        width: 380px;
+    }
+    .images{
+        width: auto;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .footer-text{
+        margin-left: 50px;
+        width: 400px;
+    }
+   .port{
+    margin-left: 50px;
+   }
+   .eng{
+    width: 350px;
+   }
+   .subscribe{
+    margin-left: 13px;
+   }
+   .logos{
+    width: 80%;
+   }
+}
