@@ -44,7 +44,13 @@
     font-size: 20px;
     opacity: 0.9;
 }
-
+i{
+    position: absolute;
+    font-size: 20px;
+    top: 45px;
+    color: white;
+    left: 95%;
+}
 .welcome {
     position: absolute;
     top: 200px;
@@ -412,6 +418,9 @@
     padding-top: 20px;
     line-height: 28px;
     /* background-color: aqua; */
+}
+.recent{
+    margin-top: 50px;
 }
 .blackbox{
     background-color: black;
@@ -883,6 +892,9 @@ button{
     flex-direction: column;
 }
 @media  (max-width: 1024px){
+    i{
+        left: 97%;
+    }
     .next{
         height: 800px;
     }
@@ -983,8 +995,15 @@ button{
    .full-box{
     width: 300px;
    }
+   .recent{
+    margin-top: 30px;
+   }
 }
 @media (max-width: 768px){
+    i{
+        top: 48px;
+        font-size: 15px;
+    }
     .next{
         height: 850px;
     }
@@ -1052,8 +1071,15 @@ button{
     .que{
         width: 700px;
     }
+    .recent{
+        margin-top: 30px;
+    }
 }
 @media (max-width: 480px){
+    i{
+        top: 43px;
+        left: 92%;
+    }
     .glint{
         font-size: 24px;
         left: 20px;
@@ -1277,5 +1303,7 @@ button{
     .footer-text{
         width: 300px;
     }
-    
+    .recent{
+        margin-top: 30px;
+    }
 }
