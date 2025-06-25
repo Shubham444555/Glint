@@ -233,7 +233,7 @@
 
 .services {
     /* background-color: red; */
-    height: 1150px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -697,12 +697,6 @@ button{
     font-size: 17px;
     cursor: pointer;
 }
-.name{
-    position: absolute;
-    top: 0px;
-    background-color: red;
-    width: 100px;
-}
 .email1{
     margin-top: 30px;
 }
@@ -718,6 +712,7 @@ button{
 }
 .two-box{
     display: flex;
+    justify-content: center;
 }
 .contact{
     color: #39b54a;
@@ -744,7 +739,6 @@ button{
     background-color: black;
     opacity: 0.5;
     margin-top: 80px;
-    margin-left: 80px;
 }
 .full-box{
     height: 700px;
@@ -888,7 +882,7 @@ button{
     display: flex;
     flex-direction: column;
 }
-@media  (max-width: 884px){
+@media  (max-width: 1024px){
     .next{
         height: 800px;
     }
@@ -968,4 +962,320 @@ button{
    .logos{
     width: 80%;
    }
+   .transparent-box{
+    width: 450px;
+   }
+   .yourname{
+    width: 350px;
+   }
+   .youremail{
+    width: 350px;
+   }
+   .yoursubject{
+    width: 350px;
+   }
+   .yourmessage{
+    width: 350px;
+   }
+   .submit{
+    width: 375px;
+   }
+   .full-box{
+    width: 300px;
+   }
+}
+@media (max-width: 768px){
+    .next{
+        height: 850px;
+    }
+    .no1{
+        font-size: 75px;
+    }
+    .no2{
+        font-size: 75px;
+    }
+    .no3{
+        font-size: 75px;
+    }
+    .no4{
+        font-size: 75px;
+    }
+    .welcome{
+        left: 150px;
+    }
+    .people p{
+        left: 150px;
+    }
+    .start{
+        left: 150px;
+    }
+    .more{
+        left: 300px; 
+    }
+    .nemo{
+        width: 320px;
+    }
+    .nemo1{
+        width: 320px;
+    }
+    .nemo2{
+        width: 320px;
+    }
+    .nemo3{
+        width: 320px;
+    }
+    .nemo4{
+        width: 320px;
+    }
+    .nemo5{
+        width: 320px;
+    }
+    .recent{
+        margin-top: 100px;
+    }
+    .last{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-text{
+        width:350px;
+    }
+    .eng{
+        width: 320px;
+    }
+    .input1{
+        width: 200px;
+    }
+    .logos{
+        width: 90%;
+    }
+    .que{
+        width: 700px;
+    }
+}
+@media (max-width: 480px){
+    .glint{
+        font-size: 24px;
+        left: 20px;
+    }
+    .menu{
+        font-size: 15px;
+        left: 80%;
+    }
+    .welcome{
+        font-size: 16px;
+        left: 20px;
+        letter-spacing: 1px;
+        top: 150px;
+    }
+    .people p{
+        top: 140px;
+        font-size: 20px;
+        left: 20px;
+        font-weight: 500;
+        width: 300px;
+        letter-spacing: 0;
+        word-spacing: 1px;
+        margin-top: 40px;
+    }
+    .start{
+        left: 20px;
+        top: 320px;
+        font-size: 8px;
+    }
+    .more{
+        left: 150px;
+        top: 320px;
+        font-size: 8px;
+    }
+    .image img{
+        height: 450px;
+    }
+    .image-box{
+        height: 450px;
+    }
+    .hello{
+        font-size: 17px;
+        padding-top: 80px;
+    }
+    .wer{
+        font-size: 44px;
+    }
+    .long p{
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 25px;
+    }
+    .next{
+        height: 850px;
+    }
+    .noch{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .number1{
+        border-right: white 1px solid;
+    }
+    .number2{
+        border: none;
+    }
+    .number3{
+        border-right: 1px solid white;
+    }
+    .number4{
+        border: none;
+    }
+    .no1, .no2, .no3, .no4{
+        font-size: 58px;
+    }
+    .ch1, .ch2, .ch3, .ch4{
+        font-size: 13px;
+    }
+    .wwb{
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: normal;
+    }
+    .abc, .def, .ghi{
+        display: grid;
+    }
+    .brand{
+        width: 300px;
+    }
+    .illustration{
+        padding-top: 50px;
+    }
+    .webd{
+        width: 300px;
+    }
+    .package{
+        width: 300px;
+    }
+    .webdev{
+        width: 300px;
+    }
+     .love{
+        font-size: 30px;
+        width: fit-content;
+     }
+     .images{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+     .clients{
+        margin-top: 2000px;
+     }
+     .img1, .img2, .img3, .img4, .img5, .img6{
+        height: 350px;
+        width: 350px;
+     }
+     .img1 img{
+        height: 350px;
+        width: 350px;
+     }
+     .img2 img{
+        height: 350px;
+        width: 350px;
+     }
+     .img3 img{
+        height: 350px;
+        width: 350px;
+     }
+     .img4 img{
+        height: 350px;
+        width: 350px;
+     }
+     .img5 img{
+        height: 350px;
+        width: 350px;
+     }
+     .img6 img{
+        height: 350px;
+        width: 350px;
+     }
+     .partner{
+        font-size: 30px;
+        width: fit-content;
+     }
+     .logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+     .que{
+        width: fit-content;
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: normal;
+        margin-top: 40px;
+     }
+     .reach{
+        font-size: 30px;
+        width: fit-content;
+     }
+     .two-box{
+        /* width: fit-content; */
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+    .transparent-box{
+        padding: 0px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        /* height: fit-content; */
+    }
+    .send{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .yourname{
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .youremail{
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .yoursubject{
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .yourmessage{
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .submit{
+        width: 315px;
+        margin-left: 20px;
+    }
+    .bubble{
+        height: 1700px;
+    }
+    .full-box{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    .logo-text{
+        margin-top: 0px;
+    }
+    .footer-text{
+        width: 300px;
+    }
+    
 }
