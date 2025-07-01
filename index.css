@@ -256,7 +256,6 @@ i {
 }
 
 .services {
-    /* background-color: red; */
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -289,7 +288,6 @@ i {
     display: flex;
     width: 100%;
     height: fit-content;
-    /* background-color: yellow; */
 }
 
 .first {
@@ -312,7 +310,6 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .second {
@@ -335,11 +332,9 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .def {
-    /* background-color: green; */
     display: flex;
     width: 100%;
     height: fit-content;
@@ -365,7 +360,6 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .fourth {
@@ -388,11 +382,9 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .ghi {
-    /* background-color: yellow; */
     display: flex;
     width: 100%;
     height: fit-content;
@@ -419,7 +411,6 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .sixth {
@@ -442,7 +433,6 @@ i {
     opacity: 0.8;
     padding-top: 20px;
     line-height: 28px;
-    /* background-color: aqua; */
 }
 
 .recent {
@@ -700,7 +690,6 @@ i {
     display: flex;
     flex-direction: column;
     width: 50%;
-    /* background-color: rgb(65, 158, 52); */
     margin-top: 100px;
 }
 
@@ -727,9 +716,7 @@ i {
 
 .notified {
     width: 50%;
-    /* background-color: red; */
     margin-top: 110px;
-    /* margin-left: 100px; */
 }
 
 .get {
@@ -1159,52 +1146,67 @@ button {
     .recent {
         margin-top: 30px;
     }
-    .long p{
+
+    .long p {
         line-height: 30px;
     }
 }
 
 @media (max-width: 768px) {
-    .reach{
+    .reach {
         width: auto;
         font-size: 40px;
     }
-    .clients{
+
+    .clients {
         margin-top: 1000px;
     }
 
-    .partner{
+    .partner {
         font-size: 40px;
         width: auto;
     }
-    .img1, .img2, .img3, .img4, .img5, .img6{
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
         height: 350px;
         width: 350px;
     }
-    .img1 img{
+
+    .img1 img {
         height: 350px;
         width: 350px;
     }
-    .img2 img{
+
+    .img2 img {
         height: 350px;
         width: 350px;
     }
-    .img3 img{
+
+    .img3 img {
         height: 350px;
         width: 350px;
     }
-    .img4 img{
+
+    .img4 img {
         height: 350px;
         width: 350px;
     }
-    .img5 img{
+
+    .img5 img {
         height: 350px;
         width: 350px;
     }
-    .img6 img{
+
+    .img6 img {
         height: 350px;
         width: 350px;
     }
+
     i {
         top: 48px;
         font-size: 15px;
@@ -1306,27 +1308,32 @@ button {
 }
 
 @media (max-width: 480px) {
-    .subscribe{
+    .subscribe {
         display: flex;
         flex-direction: column;
     }
-    button{
+
+    button {
         margin-top: 20px;
         margin-left: 120px;
     }
-    .input1{
+
+    .input1 {
         width: 250px;
     }
-    .eng{
+
+    .eng {
         line-height: normal;
         font-size: 13px;
         width: 300px;
     }
-    .footer-text{
+
+    .footer-text {
         line-height: normal;
         font-size: 13px;
         width: 300px;
     }
+
     i {
         top: 43px;
         left: 92%;
@@ -1548,7 +1555,6 @@ button {
     }
 
     .two-box {
-        /* width: fit-content; */
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -1559,7 +1565,6 @@ button {
         margin-left: auto;
         margin-right: auto;
         width: 350px;
-        /* height: fit-content; */
     }
 
     .send {
